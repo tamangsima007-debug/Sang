@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sima Tamang | Digital Marketing Portfolio</title>
+  <meta name="description" content="Portfolio website of Sima Tamang, Digital Marketing Specialist and Lead Generation Manager.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #222;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .skills, .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Sima Tamang</h1>
+    <p>Digital Marketing Specialist | Lead Generation Manager</p>
+  </header>
+
+  <!-- About Section -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hello, I’m Sima Tamang, a digital marketing professional with experience in lead generation, content strategy, and online growth.
+      This website is my official portfolio and a practice space where I test landing pages, SEO techniques, and marketing strategies.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section>
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="card">SEO Optimization</div>
+      <div class="card">Social Media Marketing</div>
+      <div class="card">Google Ads & Meta Ads</div>
+      <div class="card">Lead Generation</div>
+      <div class="card">Content Marketing</div>
+      <div class="card">Email Marketing</div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section>
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Lead Generation</h3>
+        <p>Building high-quality leads using landing pages, ads, and funnels.</p>
+      </div>
+
+      <div class="card">
+        <h3>SEO & Content</h3>
+        <p>Optimizing websites and content for better Google ranking.</p>
+      </div>
+
+      <div class="card">
+        <h3>Paid Advertising</h3>
+        <p>Managing Google Ads and Social Media ad campaigns.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section>
+    <h2>Contact Me</h2>
+    <p>
+      Email: <a href="mailto:yourname@email.com">yourname@email.com</a><br>
+      LinkedIn: <a href="#">Your LinkedIn Profile</a><br>
+      GitHub: <a href="#">Your GitHub Profile</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Sima Tamang. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
